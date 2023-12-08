@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alegreya Sans', sans-serif;
+    list-style: none;
+}
+
+body h1 , h2 , h3{
+    font-family: 'Alegreya', serif;
+}
+body p{
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 1.8;
+}
+.clear-fix{
+    clear: both;
+}
+.nav-bar{
+    padding: 15px 30px ;
+    position:fixed;
+    width: 95%;
+}
+.nav-logo {
+    float: left;
+}
+.nav-logo img{
+    width: 70%;
+    top: 10px;
+    left: 50px;
+}
+.nav-ul{
+    font-size: 18px;
+    float: right;
+    right: 20px;
+}
+.nav-bar li{
+float: left;
+padding: 20px 15px;
+}
+
+.header{
+    color: white;
+    height: 160vh;
+    background-image: url(../img/drew-coffman-1872.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    position: relative;
+}
+
+.items{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+    padding-top: 50px;
+}
+.items h1{
+    font-weight: 200;
+    font-size: 76px;
+
+}
+.items p{
+    padding: 15px;
+    font-size: 24px;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    font-size: 16;
+    transition-duration:0.4s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn1{
+    background-color: #8e7754;
+    padding: 15px 30px;
+    border: none;
+}
+.btn2{
+    background-color: transparent;
+    padding: 14px 29px;
+    border-color: white;
+    border-width: 1px;
+}
+
+/*========================================================================== */
+
+.section1{
+    margin: 50px 0px 30px 0px;
+}
+
+.section1-img{
+    width: 40%;
+    margin: 50px;
+    float: left;
+}
+.section1-img img{
+    width: 100%;
+}
+.section1-items{
+    width: 50%;
+    margin-top: 50px;
+    padding-top: 50px ;
+    text-align: left;
+    float: left;
+}
+.section1-items p{
+    margin: 30px;
+    color: #686868;
+    font-weight: 500;
+}
+.section1-items h2{
+    font-size: 32px;
+    font-weight: 200;
+}
+.section1 ul li{
+    padding-block: 10px ;
+}
+.section1 ul li i{
+border: 1px solid rgba(0,0,0,.15);
+border-radius: 100%;
+font-size: 20px;
+width: 44px;
+height: 44px;
+color: #8e7754;
+line-height: 44px;
+text-align: center;
+}
+
+
+/* =======================================================================*/
+
+.section2{
+    background-color: rgba(238, 238, 238, 0.933);
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.section2-img {
+    width: 40%;
+    float: left;
+
+}
+.section2-img img{
+    width: 100%;
+}
+.section2-items{
+    width: 50%;
+    float: left;
+    margin: auto;
+    padding: 50px;
+}
+.section2-items h2{
+    font-size: 32px;
+    font-weight: 200;
+}
+.section2-items p{
+    margin: 30px;
+    color: #686868;
+
+}
+/* ======================================================== */
+
+.section3{
+    text-align: center;
+    margin-bottom:50px;
+}
+.backing{
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin: 0px 20px;
+}
+.backing img{
+    width: 100%;
+}
+.section3 h3{
+    padding-top: 20px;
+    font-weight: 300;
+}
+.section3 p{
+    padding: 20px 20px 50px 20px;
+    color: #686868;
+
+}
+/* ==================================================== */
+.section4{
+    background-color: rgba(238, 238, 238, 0.933);
+    margin: 50px 0px auto;
+    padding: 30px;
+}
+
+.contact-information{
+    width: 40%;
+    padding: 50px;
+    float: left;
+}
+.contact-information p{
+    padding: 20px;
+}
+iframe{
+    width: 50%;
+    height: 500px;
+    margin: 30px 0px;
+    float: left;
+}
+.section4 ul li {
+    padding: 10px;
+}
+.section4 ul li i{
+border: 1px solid rgba(0,0,0,.15);
+border-radius: 100%;
+font-size: 20px;
+width: 36;
+height: 36px;
+color: white;
+background-color: #8e7754;
+line-height: 36px;
+text-align: center;
+margin-right: 10px; ;
+}
+/* =================================================================== */
+.section5{
+    background-color:#403D38;
+    color: #969696;
+    margin: auto;
+    padding: 50px ;
+
+}
+
+.about-us{
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+.about-us h3{
+        color: white;
+        font-weight: 200px;
+}
+.about-us p{
+    padding: 10px;
+    color: #686868;
+
+}
+.line{
+    background: #686868;
+    height: 1px;
+    width: 100%;
+}
+.add-bg{
+    background-image: url(../img/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 0.5;
+}
+.about-us i {
+color:#969696;
+font-size: 18px;
+width: 18px;
+text-align: center;
+margin-right: 10px;
+}
+.about-us .icon-container{
+    padding-block: 20px;
+}
+/* ====================================================================== */
+
+.section6{
+    background-color: #353330;
+    text-align: center;
+    padding: 50px;
+
+}
+.section6 p{
+    color: #777;
+    padding: 20px;
+}
+.section6 i{
+    border-radius: 100%;
+    background-color: #484540;
+    color: #8c8a86;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 8px;
+    padding: 10px;
+}
+.fa-facebook:hover{
+    background-color: #0275d8;
+    color: white;
+}
+.fa-google-plus-g:hover{
+    background-color: #DD4B39;
+    color: white;
+}
+.fa-linkedin-in:hover{
+    background-color: #007BB5;
+    color: white;
+}
+.fa-twitter:hover{
+    background-color: #00ACED;
+    color: white;
+}
